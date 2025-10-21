@@ -7,7 +7,7 @@ public class Recursive {
             return 1;
         }
         else {
-            return number * recursive(number--);
+            return number * recursive(--number);
         }
     }
 }
