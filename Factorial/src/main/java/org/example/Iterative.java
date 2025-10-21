@@ -1,8 +1,8 @@
 package org.example;
 
-public class Factorial {
+public class Iterative {
 
-    public long Iterative(int number) {
+    public long iterative(int number) {
         long result = 1;
         for(int i = 2; i <= number; i++) {
             result *= i;
@@ -10,3 +10,4 @@ public class Factorial {
         return result;
     }
 }
+
